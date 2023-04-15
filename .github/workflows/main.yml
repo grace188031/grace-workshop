@@ -1,0 +1,10 @@
+name: workshop-workflow
+on:
+	   workflow_dispatch:
+
+jobs:
+     display_date:
+          runs-on: ebf-pod-ubuntu-2004
+          steps:
+             -  name: Display date
+                run: date
